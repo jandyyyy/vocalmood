@@ -1,2 +1,2 @@
 # vocalmood
-Recommends a song to sing according to mood
+Tells different breeds of dogs.
