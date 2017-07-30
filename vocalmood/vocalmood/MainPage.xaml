@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:vocalmood" 
+    x:Class="vocalmood.MainPage">
+    <NavigationPage Title="Information">
+        <x:Arguments>
+            <local:AzureTables />
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Analyzer">
+        <x:Arguments>
+            <local:CustomVision />
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>
